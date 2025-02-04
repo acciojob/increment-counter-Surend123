@@ -7,3 +7,4 @@ incrementBtn.addEventListener('click',function(){
 	count++;
 	counter.textContent = count;
 });
+
