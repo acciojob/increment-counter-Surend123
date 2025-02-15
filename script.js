@@ -5,6 +5,6 @@ let incrementBtn = document.getElementById("incrementBtn");
 incrementBtn.addEventListener('click',function(){
 	alert(`${count}`);
 	count++;
-	counter.textContent = count;
+	counter.innerText = count;
 });
 
